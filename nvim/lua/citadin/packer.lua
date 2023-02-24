@@ -54,7 +54,12 @@ return require('packer').startup(function(use)
     }
 
     use('tpope/vim-commentary')
-    use('vim-airline/vim-airline')
-    use('vim-airline/vim-airline-themes')
+    -- use('vim-airline/vim-airline')
+    -- use('vim-airline/vim-airline-themes')
+    use('ryanoasis/vim-devicons')
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    }
 end
 )
