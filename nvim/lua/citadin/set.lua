@@ -33,5 +33,7 @@ vim.opt.encoding="UTF-8"
 
 vim.api.nvim_create_autocmd(
     "FileType",
-    {pattern = { "typescript", "javascript" }, command = "setlocal shiftwidth=2 softtabstop=2"}
+    {pattern = { "typescript", "javascript", "vue" }, command = "setlocal shiftwidth=2 softtabstop=2"}
 )
+
+vim.opt.clipboard=unnamedplus
