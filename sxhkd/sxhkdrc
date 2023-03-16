@@ -8,7 +8,7 @@ super + alt + c
 
 # terminal emulator
 super + Return
-	kitty
+	konsole
 
 # program launcher
 super + d

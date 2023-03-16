@@ -17,6 +17,6 @@ bspc rule -a firefox desktop='^5'
 ${HOME}/.fehbg
 compton &
 /usr/bin/numlockx on
-${HOME}/.config/polybar/launch.sh --shapes
+${HOME}/.config/polybar/launch.sh --panels
 xsetroot -cursor_name left_ptr &
 xset s off -dpms

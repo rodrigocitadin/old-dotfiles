@@ -15,6 +15,7 @@ return require('packer').startup(function(use)
 
     use('ellisonleao/gruvbox.nvim')
     use('nyoom-engineering/oxocarbon.nvim')
+    use{ "catppuccin/nvim", as = "catppuccin"}
 
     -- use({
     --     'rose-pine/neovim',
@@ -54,6 +55,8 @@ return require('packer').startup(function(use)
     }
 
     use('tpope/vim-commentary')
+    -- use('vim-airline/vim-airline')
+    -- use('vim-airline/vim-airline-themes')
     use('ryanoasis/vim-devicons')
     use {
         'nvim-lualine/lualine.nvim',
