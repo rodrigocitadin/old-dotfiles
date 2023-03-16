@@ -8,11 +8,11 @@ super + alt + c
 
 # terminal emulator
 super + Return
-	konsole
+	kitty
 
 # program launcher
 super + d
-	~/.config/polybar/hack/scripts/launcher.sh
+	~/.config/polybar/shapes/scripts/launcher.sh
 
 # make sxhkd reload its configuration files:
 super + Escape

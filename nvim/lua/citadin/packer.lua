@@ -54,8 +54,6 @@ return require('packer').startup(function(use)
     }
 
     use('tpope/vim-commentary')
-    -- use('vim-airline/vim-airline')
-    -- use('vim-airline/vim-airline-themes')
     use('ryanoasis/vim-devicons')
     use {
         'nvim-lualine/lualine.nvim',
@@ -65,5 +63,7 @@ return require('packer').startup(function(use)
         "windwp/nvim-autopairs",
         config = function() require("nvim-autopairs").setup {} end
     }
+
+    use('vimsence/vimsence')
 end
 )
