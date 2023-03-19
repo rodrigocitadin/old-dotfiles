@@ -33,7 +33,7 @@ vim.opt.encoding="UTF-8"
 
 vim.api.nvim_create_autocmd(
     "FileType",
-    {pattern = { "rust" }, command = "setlocal shiftwidth=4 softtabstop=4 shiftwidth=2"}
+    {pattern = { "rust", "cs" }, command = [[setlocal shiftwidth=4 softtabstop=4 shiftwidth=4]] }
 )
 
 vim.opt.clipboard=unnamedplus
